@@ -1,6 +1,10 @@
 {
 	"bodyClass": "europeana_search",
 	"pagetitle": "Europeana Search",
+
+        "total":12345,
+	"query_terms": ["Rembrandt", "Art History"],
+
 	"globalnav_options": {
 		"search": false,
 		"myeuropeana": true
@@ -246,7 +250,7 @@
 			"items": [
 				{
 					"url":"http://europeana.eu",
-					"text": "First Item"
+					"text": "Label"
 				},
 				{
 					"url":"http://europeana.eu",
@@ -333,6 +337,10 @@
 	    {
 	        "title": "Rembrant van Rijn, An Elephant, a drawing",
 	        "isImage": true,
+	        "item_type" : {
+	        	"name"	: "Painting",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/people",
@@ -354,6 +362,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "This is one of several drawings by Rembrandt of female elephants in different poses. This elephant may even be one called Hansken, a female despite her name, known to have been in Holland in 1641. Behind and to the right of the animal are the outlines of three figures..."
@@ -365,6 +385,10 @@
 	    {
 	        "title": "Militia Company of District II under the Command of Captain Frans Banninck Cocq, Known as de Night Watch",
 	        "isAudio": true,
+	        "item_type" : {
+	        	"name"	: "Recording",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/nature",
@@ -386,6 +410,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "The painting may be more properly titled by its long since forgotten name The Company of captain Frans Banning Cocq and lieutenant Willem van Ruytenburch preparing to march out. In the 18th century the painting became known as the Night Watch."
@@ -397,6 +433,10 @@
 	    {
 	        "title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
 	        "isAudio": true,
+	        "item_type" : {
+	        	"name"	: "Song",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/tech",
@@ -418,6 +458,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "The Anatomy Lesson of Dr. Nicolaes Tulp is a 1632 oil painting on canvas by Rembrandt housed in the Mauritshuis museum in The Hague, the Netherlands. Dr. Nicolaes Tulp is pictured explaining the musculature of the arm to medical professionals. Some of the spectators are..."
@@ -429,6 +481,10 @@
 	    {
 	        "title": "Self portrait",
 	        "isText": true,
+	        "item_type" : {
+	        	"name"	: "Poem",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/people",
@@ -450,6 +506,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "Self-portrait with dishevelled hair is an early self-portrait by the Dutch artist Rembrandt, now in the Rijksmuseum. It dates to 1628 and is an exercise in chiaroscuro."
@@ -461,6 +529,10 @@
 	    {
 	        "title": "Belshazzars Feast",
 	        "isText": true,
+	        "item_type" : {
+	        	"name"	: "Book",
+	        	"url"	: "http://europeana.eu/search/books" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/nature",
@@ -482,6 +554,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "Belshazzar's Feast is a painting by Rembrandt. Its source comes from the story of Belshazzar and the writing on the wall in the Old Testament Book of Daniel. It is held in the The National Gallery, London."
@@ -493,6 +577,10 @@
 	    {
 	        "title": "The Stoning of Saint Stephen",
 	        "isImage": true,
+	        "item_type" : {
+	        	"name"	: "Photograph",
+	        	"url"	: "http://europeana.eu/search/photograph" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/tech",
@@ -514,6 +602,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "The Stoning of Saint Stephen is the first painting by Dutch artist Rembrandt, painted in 1625 at the age of 19."
@@ -525,6 +625,10 @@
 	    {
 	        "title": "Balaam and the Ass",
 	        "isImage": true,
+	        "item_type" : {
+	        	"name"	: "Drawing",
+	        	"url"	: "http://europeana.eu/search/drawing" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/people",
@@ -546,6 +650,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "Balaam and the Ass is a 1626 painting by the Dutch artist Rembrandt, dating from his time in Leiden and now in the Musée Cognacq-Jay in Paris."
@@ -557,6 +673,10 @@
 	    {
 	        "title": "The Artist in his Studio",
 	        "isImage": true,
+	        "item_type" : {
+	        	"name"	: "Print",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/nature",
@@ -579,6 +699,18 @@
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
 	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
+	        },
 	        "text": {
 	            "medium": "The Artist in his Studio is an 1628 oil painting made by Rembrandt. The painting shows an artist' studio in realist style. It is held by the Museum of Fine Arts in Boston, Massachusetts."
 	        },
@@ -589,6 +721,10 @@
 	    {
 	        "title": "The Storm on the Sea of Galilee",
 	        "isVideo":true,
+	        "item_type" : {
+	        	"name"	: "TV programme",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/tech",
@@ -611,6 +747,18 @@
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
 	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
+	        },
 	        "text": {
 	            "medium": "The Storm on the Sea of Galilee is a painting from 1633 by the Dutch Golden Agepainter Rembrandt van Rijn that was in the Isabella Stewart Gardner Museum of Boston, Massachusetts, United States, prior to being stolen on March 18, 1990. The painting depicts the miracle of..."
 	        },
@@ -621,6 +769,10 @@
 	    {
 	        "title": "Jacob de Gheyn III",
 	        "isImage": true,
+	        "item_type" : {
+	        	"name"	: "Painting",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/people",
@@ -643,6 +795,18 @@
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
 	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
+	        },
 	        "text": {
 	            "medium": "Huygens and de Gheyn had commissioned Rembrandt to paint them in identical formats and he did so upon the same oak panel. The friends had agreed that the first of them to die would receive the painting owned by the other, as evidenced by inscriptions on the their reverse. They w..."
 	        },
@@ -653,6 +817,10 @@
 	    {
 	        "title": "Philosopher in Meditation",
 	        "isVideo":true,
+	        "item_type" : {
+	        	"name"	: "Music video",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/nature",
@@ -675,6 +843,18 @@
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
 	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
+	        },
 	        "text": {
 	            "medium": "Philosopher in Meditation (Bredius 431) is the traditional title of an oil painting in the Musée du Louvre, Paris, that has long been attributed to the 17th-century Dutch artist Rembrandt."
 	        },
@@ -685,6 +865,10 @@
 	    {
 	        "title": "The Abduction of Europa",
 	        "isImage": true,
+	        "item_type" : {
+	        	"name"	: "Painting",
+	        	"url"	: "http://europeana.eu/search/paintings" 
+	        },
 	        "img": {
 	            "avatar": {
 	                "src": "http://placeimg.com/100/100/tech",
@@ -706,6 +890,18 @@
 	        "origin":{
 	        	"text":"Rijksmuseum",
 	        	"url": "http://urlhere.com"
+	        },
+	        "channels": {
+	        	"items": [
+				{
+					"url":"http://europeana.eu",
+					"text": "Art History"
+				},
+				{
+					"url":"http://europeana.eu",
+					"text": "Military History"
+				}
+			]
 	        },
 	        "text": {
 	            "medium": "Rembrandt Harmenszoon van Rijn’s The Abduction of Europa (1632) is one of his rare mythological subject paintings. The piece is oil on canvas and now located in the J. Paul Getty Museum. The inspiration for the painting is Ovid’s Metamorphoses, part of which tells the tale..."
