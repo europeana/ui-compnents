@@ -1,0 +1,69 @@
+<!-- Start Footer -->
+<footer class="footer" role="contentinfo">
+    <div class="lc">
+        <div class="grid">
+
+            <div class="l-contact">
+                <div class="footer_logo">
+                    <a href="/"><img src="../../images/footer_logo.svg" alt="Europeana - think culture" /></a>
+                </div>
+                
+                <div class="address">
+                    Head Office<br>
+                    ℅ Koninklijke Bibliotheek<br>
+                    Prins Willem Alexanderhof 5<br>
+                    2595 BE Den Haag
+                </div>
+
+            </div><!--
+
+         --><div class="l-content">
+
+                <div class="l-sitemap grid">
+                {{# navigation.footer_linklist1 }}{{> molecules/navigation/linklist-with-title }}{{/ navigation.footer_linklist1 }}<!--
+             -->{{# navigation.footer_linklist2 }}{{> molecules/navigation/linklist-with-title }}{{/ navigation.footer_linklist2 }}
+                </div>
+
+                <div class="grid">
+                    <div class="l-mission">
+                        <h4 class="title">Our Mission</h4>
+                        <p>The Europeana Foundation and its Network create new ways for people to engage with European cultural history for work, learning or pleasure.</p>
+                    </div><!--
+
+                 --><div class="l-othersites">
+                        {{# navigation.footer_othersites }}
+                        {{> molecules/navigation/linklist-with-title }}
+                        {{/ navigation.footer_othersites }}
+                    </div>
+                </div>
+            </div><!--
+
+         --><div class="l-nextsteps">
+                {{# page_config.newsletter }}
+                <div class="signup">
+                    {{> molecules/forms/newsletter }}
+                </div>
+                {{/ page_config.newsletter }}
+                
+                {{> molecules/navigation/social-links }}
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-footer">
+
+        <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="http://europeana.eu/portal/rights/terms-and-policies.html">Terms of use &amp; policies</a></li>
+            <li><a href="/">Contact us</a></li>
+            <li><a href="/">Sitemap</a></li>
+        </ul>
+
+        <p class="copyright">Co-funded by the European Union.</p>
+        
+    </div>
+
+
+</div>
+</footer>
+<!-- End Footer -->

@@ -1,0 +1,14 @@
+{
+    "name": "europeana/ui-components",
+    "description": "europeana ui-components package",
+    "license": "EUPL-1.1",
+    "authors": [
+        {
+            "name": "dan entous",
+            "email": "dan.entous@pennlinepublishing.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.28"
+    }
+}
