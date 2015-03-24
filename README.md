@@ -1,5 +1,5 @@
 # europeana ui-components
-europeana ui-components package
+europeana ui-components package. automatically updated via a [jenkins](http://jenkins.eanadev.org/job/ui-components-develop/) build script when a commit is made against the [Europeana Pattern Lab](https://github.com/europeana/Europeana-Patternlab) repo.
 
 ## installation
 ### php
